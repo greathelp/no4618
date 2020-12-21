@@ -1,0 +1,214 @@
+#top {
+  .fade_img {
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // background-image: url(../img/header02.png);
+    background-image: url(../img/header01.png);
+    // background-image: url(../img/header03.png);
+    // background-color: #F6F6F6;
+    background-repeat: no-repeat;
+    background-size: 96%;
+    background-position: 23px -12px;
+    @media screen and (max-width: 767px){
+      height: 350px;
+      background-image: url(../img/header01.jpg);
+      background-repeat: no-repeat;
+      background-size: 150%;
+      background-position: -180px 0;
+    }
+    }
+    .single-item {
+      width: 1100px;
+      margin: 0 auto;
+      @media screen and (max-width: 767px){
+        width: 100%;
+        // // padding: 10px 15px 0;
+        // box-sizing: border-box;
+      }
+    }
+
+    .news_cover {
+      background-color: white;
+      margin-top: 18px;
+      padding: 30px 50px;
+      border-radius: 8px;
+      @media screen and (max-width: 767px){
+        padding: 10px 20px;
+      }
+// pc用
+      .news_title_sp {
+        display: none;
+      }
+      .news_title_pc {
+        color: #43A847;
+        font-size: 20px;
+        letter-spacing: 0.1em;
+        font-weight: bold;
+      }
+      @media screen and (max-width: 767px){
+        .news_title_sp {
+          display: block;
+          color: #43A847;
+          font-size: 18px;
+          font-weight: bold;
+          letter-spacing: 0.1em;
+        }
+        .news_title_pc {
+          display: none;
+        }
+      }
+
+      .news_naiyou {
+        margin-top: 10px;
+      }
+    }
+
+    .back_weekgreen {
+      background-color: #EDF4ED;
+    }
+    .point_block {
+      .point_naiyou {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        p {
+          width: 750px;
+        }
+        img {
+          border-radius: 8px;
+          width: 200px;
+          @media screen and (max-width: 767px){
+            width: 100%;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+}
+
+.shinryou {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.yoyaku {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  // margin-top: 100px;
+  .yoyaku_nagare {
+    .title_txt {
+      margin-top: 0;
+      @media screen and (max-width: 767px){
+        margin-left: 0;
+      }
+    }
+    > p {
+      // margin-top: 50px;
+      width: 500px;
+      margin-left: 50px;
+      @media screen and (max-width: 767px){
+        width: 100%;
+        margin-left: 0;
+      }
+    }
+  }
+  img {
+    width: 300px;
+    border-radius: 8px;
+    @media screen and (max-width: 767px){
+      text-align: center;
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+}// yoyaku
+
+.ortho_bunner {
+  width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  @media screen and (max-width: 767px){
+    width: 100%;
+    // box-sizing: border-box;
+  }
+  img {
+    width: 1100px;
+    @media screen and (max-width: 767px){
+      width: 100%;
+      // margin: 0 10px;
+      // box-sizing: border-box;
+    }
+  }
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  @media screen and (max-width: 767px){
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  .gallery_block {
+    text-align: center;
+    img {
+      width: 320px;
+      border-radius: 8px;
+      @media screen and (max-width: 767px){
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+// カレンダー設定
+.afternoon {
+  color: blue;
+  background-color: #D9EFF9;
+  font-weight: bold;
+}
+.counseling {
+  color: green;
+  background-color: #D1EDD4;
+  font-weight: bold;
+}
+.close {
+color: red;
+background-color: #FCEBE8;
+font-weight: bold;
+}
+.calender_wrap {
+  padding: 20px!important;
+  border-radius: 8px 8px 0 0!important;
+
+}
+.calendar_txt {
+  background-color: white;
+  border-radius: 0 0 8px 8px;
+  padding-bottom: 10px;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.calender {
+  tr:nth-child(1) {
+    background-color: #F2F2F2;
+  }
+}
+.staff_photo {
+  width:1100px;
+  margin:20px 0;
+  border-radius: 5px;
+  @media screen and (max-width: 767px){
+    width: 100%;
+  }
+}

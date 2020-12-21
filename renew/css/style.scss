@@ -1,0 +1,17 @@
+// ここを読み込み専用のページにする
+@charset "utf-8";
+@import "compass";
+//
+@import "common";
+@import "header";
+@import "footer";
+@import "top";
+@import "kobetsu";
+@import "parts";
+@import "map";
+
+
+// ↑scssの小分けしたファイルを読み込むためのコード
+
+@include global-reset;
+// ↑nomalizeと同じため、nomalizeは読み込ませない

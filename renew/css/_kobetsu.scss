@@ -1,0 +1,1309 @@
+#perio {
+  .jirei {
+    padding: 30px 40px;
+    background-color: white;
+    border-radius: 8px;
+    width: 340px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    @media screen and(max-width: 767px){
+      width: 100%;
+      margin-left: 0;
+    }
+    p {
+      border-bottom: 1px solid #442D18;
+      padding-bottom: 5px;
+      display: inline;
+      letter-spacing: 0.1em;
+    }
+    ul {
+      margin-top: 10px;
+      li {
+        line-height: 1.5em;
+        font-size: 16px;
+        color: #442D18;
+        letter-spacing: 0.1em;
+        // line-height: 2em!important;
+      }
+      li:before {
+        content: "・";
+        color: #442D18;
+      }
+    }
+  }
+  .flex_between {
+    img {
+      @media screen and(max-width: 767px){
+        width: 100%!important;
+        margin-left: 0!important;
+      }
+    }
+  }
+}
+
+#false {
+    .flex_between {
+      img {
+        @media screen and(max-width: 767px){
+          width: 100%!important;
+          margin-left: 0!important;
+          // margin-right: 50px!important;
+        }
+      }
+    }
+  }
+#child {
+
+  .flex_between {
+    img {
+      @media screen and(max-width: 767px){
+        width: 100%!important;
+        margin-left: 0!important;
+        margin-right: 50px!important;
+      }
+    }
+  }
+}
+#pregn {
+  .flex_between {
+    img {
+      @media screen and(max-width: 767px){
+        width: 100%!important;
+        margin-left: 0!important;
+        margin-right: 50px!important;
+      }
+    }
+  }
+}
+#stomatitis {
+  .flex_between {
+    img {
+      @media screen and(max-width: 767px){
+        width: 100%!important;
+        margin-left: 0!important;
+        margin-right: 50px!important;
+      }
+    }
+  }
+}
+#general {
+  .flex_between {
+    img {
+      @media screen and(max-width: 767px){
+        width: 100%!important;
+        margin-left: 0!important;
+        margin-right: 50px!important;
+      }
+    }
+  }
+}
+
+// ここから個別のその他の設定
+#access {
+  .title_middle {
+    @media screen and (max-width: 767px){
+      margin-top: 0;
+    }
+    p {
+      font-size: 22px;
+      margin-bottom: 25px;
+      @media screen and (max-width: 767px){
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .info_cover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    @media screen and (max-width: 767px){
+      flex-wrap: wrap;
+    }
+    .info {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 500px;
+      margin-top: 0;
+      @media screen and (max-width: 767px){
+        // flex-wrap: wrap;
+      }
+      .open_info {
+        width: 500px;
+        @media screen and (max-width: 767px){
+          border-bottom: none;
+          margin-right: 0;
+          width: 100%;
+        }
+        .weight_bold {
+          font-weight: bold;
+        }
+      }
+      .close_info {
+        width: 100%;
+        padding-bottom: 0;
+        @media screen and (max-width: 767px){
+          width: 100%;
+        }
+        .weight_bold {
+          font-weight: bold;
+        }
+        .dot_line:last-child {
+          margin-bottom: 0;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  .flex_between {
+    margin-top: 100px;
+    @media screen and (max-width: 767px){
+      margin-top: 50px;
+    }
+    img {
+      width: 550px;
+      @media screen and (max-width: 767px){
+        width: 100%;
+      }
+    }
+    .title_txt {
+      margin-bottom: 0;
+      h2 {
+        margin-top: 0;
+      }
+    }
+    .access_txt {
+      padding-top: 65px;
+      @media screen and (max-width: 767px){
+        padding-top: 30px;
+      }
+      p {
+        width: 500px;
+        @media screen and (max-width: 767px){
+          width: 100%;
+        }
+      }
+      p:nth-child(1) {
+        border-bottom: 1px solid ;
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+        letter-spacing: 0.1em;
+        @media screen and (max-width: 767px){
+          padding-bottom: 15px!important;
+        }
+      }
+      .p_margin {
+        background-color: #FCFAFA;
+        border-radius: 8px;
+        padding: 20px;
+        font-size: 15px;
+        box-sizing: border-box;
+        margin-top: 40px;
+      }
+    }
+    .sp {
+      .access_txt {
+        p:nth-child(1), p:nth-child(2) {
+          @media screen and (max-width: 767px){
+            padding: 0 20px;
+            box-sizing: border-box;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+#recruit {
+  .recruit_txt {
+  width: 650px;
+  h2 {
+    margin-top: 10px;
+  }
+  }
+  .keireki {
+    p {
+      @media screen and (max-width: 767px){
+        letter-spacing: normal;
+      }
+    }
+    tr:nth-child(1) {
+      border-top: none;
+    }
+    tr:last-child {
+      border-bottom: 1px dotted #442D18;
+    }
+    tr {
+      @media screen and (max-width: 767px){
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      th {
+        @media screen and (max-width: 767px){
+          margin-top: 15px;
+        }
+      }
+      td {
+        @media screen and (max-width: 767px){
+          // text-align: center;
+        }
+      }
+    }
+    margin-top: 0;
+    .decoration {
+      background-color: #E6E6E6;
+      border: 1px solid #B3B3B3;
+      padding: 5px 15px;
+      margin-right: 20px;
+      // @media screen and (max-width: 767px){
+      //   margin: 10px 20px 10px 0;
+      // }
+    }
+  }
+}
+// #general, #perio, #ortho, #prevention, #visit, #esthe, #wisdom {
+      .title_middle {
+        // border-bottom: 1px dotted #43A847;
+        // padding-bottom: 10px;
+        letter-spacing: 0.1em;
+        margin-top: 50px;
+        background-color: #43A847;
+        border-radius: 5px;
+        // padding: 10px 0;
+        h2 {
+          padding: 10px 0;
+          // font-size: 20px;
+          font-size: 17px;
+          // color: #43A847;
+          color: white;
+          margin-left: 20px;
+        }
+      }
+    // }
+
+
+
+.kobetsu_contents_img {
+  border-radius: 8px;
+  @media screen and (max-width: 767px){
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+.right_position {
+  margin-left: 50px;
+  @media screen and (max-width: 767px){
+    margin-left: 0;
+    width: 350px;
+  }
+}
+.left_position {
+  margin-right: 50px;
+  @media screen and (max-width: 767px){
+    margin-right: 0;
+    margin-bottom: 30px;
+    width: 350px;
+  }
+}
+.kobetsu_header {
+  width: 100%;
+  height: 250px;
+  padding-top: 60px;
+  @media screen and (max-width: 767px){
+    background-image: url(../img/staff_header_sp.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 90px;
+  }
+}
+
+// 各個別ページ毎の画像と表示位置の指定
+#staff {
+  .kobetsu_header {
+    background-image: url(../img/staff_header.jpg);
+    background-size: auto auto;
+    background-position: center center;
+    @media screen and (max-width: 767px){
+      background-image: url(../img/staff_header_sp.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  .kobetsu_page_title {
+    img {
+      @media screen and (max-width: 767px){
+        width: 295px;
+      }
+    }
+  }
+
+}
+#general {
+  .kobetsu_header {
+    background-image: url(../img/general_header.jpg);
+    background-size: auto auto;
+    background-position: center center;
+    @media screen and (max-width: 767px){
+      background-image: url(../img/general_header_sp.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  .kobetsu_page_title {
+    img {
+      @media screen and (max-width: 767px){
+        width: 155px;
+      }
+    }
+  }
+
+  .general_photo1 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/262608182.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: -25 -333px;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .general_photo2 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/1313689583.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: -25 -333px;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .general_photo3 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/188928449.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: -25 -333px;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .general_photo4 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/1222147723.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: -25 -333px;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+}// general
+
+#perio {
+  .kobetsu_header {
+    background-image: url(../img/perio_header.jpg);
+    background-size: auto auto;
+    background-position: center center;
+    @media screen and (max-width: 767px){
+      background-image: url(../img/perio_header_sp.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  .kobetsu_page_title {
+    img {
+      @media screen and (max-width: 767px){
+        width: 130px;
+      }
+    }
+  }
+  .perio_photo1 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/687335908.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .perio_photo2 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/387043216.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .perio_photo3 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/188928449.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .perio_photo4 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/1026232666.jpg);
+    // background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .perio_photo5 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/1072877318.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: -25 -333px;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .perio_photo6 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/1291278598.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+}// perio
+#ortho {
+  .kobetsu_header {
+    background-image: url(../img/ortho_header.jpg);
+    background-size: auto auto;
+    background-position: center center;
+    @media screen and (max-width: 767px){
+      background-image: url(../img/ortho_header_sp.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  .kobetsu_page_title {
+    img {
+      @media screen and (max-width: 767px){
+        width: 95px;
+      }
+    }
+  }
+  .ortho_photo1 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/DSC05908.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    // background-position: -40px -30px;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      // background-position: -40px -30px;
+      background-position: 0 0;
+    }
+  }
+  .ortho_photo2 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/1034593057.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .ortho_photo3 {
+    width: 350px;
+    height: 208px;
+    background-image: url(../img/1025662795.jpg);
+    // background-repeat: no-repeat;
+    background-size: 117%;
+    background-position: -55px 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 117%;
+      background-position: -55px 0;
+    }
+  }
+}
+#child {
+  .kobetsu_header {
+    background-image: url(../img/child_header.jpg);
+    background-size: auto auto;
+    background-position: center center;
+    @media screen and (max-width: 767px){
+      background-image: url(../img/child_header_sp.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  .kobetsu_page_title {
+    img {
+      @media screen and (max-width: 767px){
+        width: 160px;
+      }
+    }
+  }
+  .child_photo1 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/1322103008.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .child_photo2 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/1322095910.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .child_photo3 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/656279509.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .child_photo4 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/319263896.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .child_photo5 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/1322103326.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+}
+#prevention {
+  .kobetsu_header {
+    background-image: url(../img/preveniton_header.jpg);
+    background-size: auto auto;
+    background-position: center center;
+    @media screen and (max-width: 767px){
+      background-image: url(../img/prevention_header_sp.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  .kobetsu_page_title {
+    img {
+      @media screen and (max-width: 767px){
+        width: 160px;
+      }
+    }
+  }
+  .prevention_photo1 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/1322095910.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .prevention_photo2 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/656279509.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+}
+#visit {
+  .kobetsu_header {
+    background-image: url(../img/visit_header.jpg);
+    background-size: auto auto;
+    background-position: center center;
+    @media screen and (max-width: 767px){
+      background-image: url(../img/visit_header_sp.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  .kobetsu_page_title {
+    img {
+      @media screen and (max-width: 767px){
+        width: 160px;
+      }
+    }
+  }
+  .visit_photo1 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/1222147723.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .visit_photo2 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/1291278598.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .visit_photo3 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/184467104.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:  0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+}
+#esthe {
+  .kobetsu_header {
+    background-image: url(../img/esthe_header.jpg);
+    background-size: auto auto;
+    background-position: center center;
+    @media screen and (max-width: 767px){
+      background-image: url(../img/esthe_header_sp.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  .kobetsu_page_title {
+    img {
+      @media screen and (max-width: 767px){
+        width: 160px;
+      }
+    }
+  }
+  .esthe_photo1 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/716625415.jpg);
+    // background-repeat: no-repeat;
+    background-size: 243%;
+    background-position: 353px -13px;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 243%;
+      background-position: 353px -13px;
+    }
+  }
+  .esthe_photo2 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/73635604.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+}
+
+
+#false {
+  .kobetsu_header {
+    background-image: url(../img/false_header.jpg);
+    background-size: auto auto;
+    background-position: center center;
+    @media screen and (max-width: 767px){
+      background-image: url(../img/false_header_sp.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  .kobetsu_page_title {
+    img {
+      @media screen and (max-width: 767px){
+        width: 130px;
+      }
+    }
+  }
+  .false_photo1 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/false2.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .false_photo2 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/false1.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .false_photo3 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/top_photo01.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .false_photo4 {
+    width: 350px;
+    @media screen and (max-width: 767px){
+      margin: 0 auto;
+    }
+    img {
+      width: 100%;
+      border-radius: 8px;
+    }
+  }
+}
+
+
+#parenting {
+  .kobetsu_header {
+    background-image: url(../img/parenting_header.jpg);
+    background-size: auto auto;
+    background-position: center center;
+    @media screen and (max-width: 767px){
+      background-image: url(../img/parenting_header_sp.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  .kobetsu_page_title {
+    img {
+      @media screen and (max-width: 767px){
+        width: 320px;
+      }
+    }
+  }
+  .parenting_photo {
+    width: 350px;
+    img {
+      border-radius: 8px;
+      width: 100%;
+      @media screen and (max-width: 767px){
+        width: 100%;
+      }
+  }
+}
+}
+
+
+#cleaning {
+  .kobetsu_header {
+    background-image: url(../img/cleaning_header.jpg);
+    background-size: auto auto;
+    background-position: center center;
+    @media screen and (max-width: 767px){
+      background-image: url(../img/cleaning_header_sp.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  .kobetsu_page_title {
+    img {
+      @media screen and (max-width: 767px){
+        width: 320px;
+      }
+    }
+  }
+  .cleaning_photo1 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/349536860.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  .cleaning_photo2 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/1313689583.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+}
+#joint {
+  .kobetsu_header {
+    background-image: url(../img/joint_header.jpg);
+    background-size: auto auto;
+    background-position: center center;
+    @media screen and (max-width: 767px){
+      background-image: url(../img/joint_header_sp.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  .kobetsu_page_title {
+    img {
+      @media screen and (max-width: 767px){
+        width: 320px;
+      }
+    }
+  }
+  .joint_photo1 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/673967329.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    // background-position: 0 -235px;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+}
+#stomatitis {
+  .kobetsu_header {
+    background-image: url(../img/stomatitis_header.jpg);
+    background-size: auto auto;
+    background-position: center center;
+    @media screen and (max-width: 767px){
+      background-image: url(../img/stomatitis_header_sp.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  .kobetsu_page_title {
+    img {
+      @media screen and (max-width: 767px){
+        width: 130px;
+      }
+    }
+  }
+  .stomatitis_photo1 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/656279509.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+}
+#wisdom {
+  .kobetsu_header {
+    background-image: url(../img/wisdom_header.jpg);
+    background-size: auto auto;
+    background-position: center center;
+    @media screen and (max-width: 767px){
+      background-image: url(../img/wisdom_header_sp.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  .kobetsu_page_title {
+    img {
+      @media screen and (max-width: 767px){
+        width: 160px;
+      }
+    }
+  }
+}
+#pregn {
+  .kobetsu_header {
+    background-image: url(../img/pregn_header.jpg);
+    background-size: auto auto;
+    background-position: center center;
+    @media screen and (max-width: 767px){
+      background-image: url(../img/pregn_header_sp.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  .kobetsu_page_title {
+    img {
+      @media screen and (max-width: 767px){
+        width: 270px;
+      }
+    }
+  }
+  .pregn_photo1 {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/1072877318.jpg);
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+}
+#access {
+  .kobetsu_header {
+    background-image: url(../img/access_header.jpg);
+    background-size: auto auto;
+    background-position: center center;
+    @media screen and (max-width: 767px){
+      background-image: url(../img/access_header_sp.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  .kobetsu_page_title {
+    img {
+      @media screen and (max-width: 767px){
+        width: 290px;
+      }
+    }
+  }
+
+  .access_photo1 {
+    width: 500px;
+    height: 325px;
+    background-image: url(../img/top_machiai.jpg);
+    // background-image: url(../img/access_img.jpg);
+    // background-repeat: no-repeat;
+    background-size: 106%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+}
+#recruit {
+  .kobetsu_header {
+    background-image: url(../img/recruit_header.jpg);
+    background-size: auto auto;
+    background-position: center center;
+    @media screen and (max-width: 767px){
+      background-image: url(../img/recruit_header_sp.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  .kobetsu_page_title {
+    img {
+      @media screen and (max-width: 767px){
+        width: 160px;
+      }
+    }
+  }
+  .recruit_photo1 {
+    width: 360px;
+    height: 200px;
+    background-image: url(../img/DSC00928.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    @media screen and (max-width: 767px){
+      width: 100%;
+      height: 200px;
+      // background-image: url(../img/machiai.png);
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+}
+#ortho {
+  .kyousei_soudan_img {
+    width: 350px;
+    border-radius: 8px;
+    @media screen and (max-width: 767px){
+      width: 100%;
+    }
+  }
+  .soudan_gaiyou {
+    background-color: #E4F0E5;
+    border-radius: 8px;
+    padding: 15px 30px;
+    span{
+      font-weight: bold;
+    }
+  }
+  .point_block {
+
+    .title_cover {
+      display: flex;
+      align-items: center;
+      .point {
+        width: 60px;
+        height: 55px;
+        background-color: #E4F0E5;
+        border-radius: 50%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media screen and(max-width: 767px){
+          width: 40px;
+          height: 35px;
+        }
+        p {
+          font-size: 12px;
+          color: #43A847;
+          letter-spacing: 0.1em;
+          text-align: center;
+          // margin-top: 8px;naka削除
+          @media screen and(max-width: 767px){
+            font-size: 9px;
+            margin-top: 0px;
+          }
+          span {
+            font-size: 28px;
+            display: block;
+            @media screen and(max-width: 767px){
+              font-size: 19px;
+            }
+          }
+        }// p
+      }// point
+      .point_title {
+        @extend .dot_line;
+        font-size: 28px!important;
+        width: 100%;
+        padding-bottom: 10px;
+        margin-left: 30px;
+        letter-spacing: 0.1em;
+        line-height: 1.4em!important;
+        @media screen and(max-width: 767px){
+          font-size: 20px!important;
+          margin-left: 10px;
+        }
+      }
+  }
+}
+  .point_block {
+    .point_naiyou {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      p {
+        width: 750px;
+      }
+      img {
+        border-radius: 8px;
+        @media screen and (max-width: 767px){
+          width: 100%;
+        }
+      }
+    }
+  }
+  .wrap2 {
+    .ortho_qa {
+      border: 1px solid #C5C5C5;
+      border-radius: 5px;
+      padding: 20px 40px;
+      color: #442D18;
+      margin-top: 30px;
+      background-color: #FCFCFC;
+      @media screen and (max-width: 767px){
+        padding: 15px 20px;
+      }
+      dt {
+        border-bottom: 1px solid #C5C5C5;
+        padding-bottom: 18px;
+        font-size: 18px;
+        @media screen and (max-width: 767px){
+          padding-bottom: 12px;
+        }
+      }
+      dd {
+        padding-top: 20px;
+        line-height: 2em;
+      }
+    }
+  }
+}
+
+#recruit {
+  .left {
+    @media screen and (max-width: 767px){
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .decoration {
+      @media screen and (max-width: 767px){
+        width: 100%;
+        padding: 0;
+        margin: 20px 0 10px;
+      }
+    }
+    .decoration:nth-child(1) {
+      @media screen and (max-width: 767px){
+        margin-top: 0;
+      }
+    }
+  }
+}
+// #parenting {
+//   .parenting_photo1 {
+//     border-radius: 8px;
+//   }
+// }

@@ -1,0 +1,95 @@
+footer {
+  background-color: #EDF4ED;
+  margin-top: 50px;
+
+  padding: 50px 0 20px;
+  .wrap, .wrap2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    @media screen and (max-width: 767px){
+      width: 90%;
+    }
+
+    .ootaka {
+      p {
+        font-size: 14px;
+        margin-top: 15px;
+        @media screen and (max-width: 767px){
+          text-align: center;
+        }
+      }
+
+      img {
+        width: 350px;
+        @media screen and (max-width: 767px){
+          width: 300px;
+        }
+      }
+    }// ootaka
+
+    .contact_cover {
+      .txt {
+        font-size: 25px;
+        font-weight: bold;
+        color: #43A847;
+        letter-spacing: 0.05em;
+        margin-left: 12px;
+        span {
+          font-size: 16px;
+          font-weight: normal;
+          letter-spacing: 0.1em;
+          margin-left: 20px;
+        }
+      }
+      .contact {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        letter-spacing: 0.1em;
+        .footer_tel {
+          display: flex;
+          align-items: center;
+          p {
+            font-size: 28px;
+            margin-left: 15px;
+            font-weight: bold;
+          }
+          img {
+            width: 35px;
+          }
+        }// footer_tel
+        .open_time {
+          // margin-left: 20px;
+          font-size:14px;
+          letter-spacing: 0.03em;
+          font-weight: bold;
+          // p:nth-child(2) {
+          //   margin-top: 5px;
+          // }
+        }
+      }// contact
+      .sub_txt {
+        font-size: 14px;
+        margin: 0 0 0 17px;
+        letter-spacing: 0.1em;
+      }
+      @media screen and(max-width: 767px){
+          display: none;
+      }
+
+    }// contact_cover
+
+  }// wrap
+  .copyright {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 11px;
+    color: gray;
+    // margin-top: 80px;
+    letter-spacing: 0.1em;
+  }
+  // .footer_contents{
+  //     display: none;
+  // }
+}// footer

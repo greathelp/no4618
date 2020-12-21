@@ -1,0 +1,67 @@
+body {
+  background-color: #F6F6F6;
+  font-family:"游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif!important;
+  background-image: url(../img/background_img.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+main {
+  // padding-top: 70px!important;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  @media screen and(max-width: 767px){
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 20px;
+    }
+}
+.wrap {
+  width: 1100px;
+  padding: 50px;
+  @media screen and(max-width: 767px){
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px 20px;
+  }
+  margin: 0 auto;
+  // margin-top: 30px;
+  // box-sizing: border-box;
+}
+.wrap2 {
+  width: 1100px;
+  padding: 0 50px;
+  @media screen and(max-width: 767px){
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 20px;
+  }
+  margin: 0 auto;
+  // margin-top: 30px;
+  // box-sizing: border-box;
+}
+p {
+  font-size: 16px;
+  line-height: 2em!important;
+  color: #442D18;
+}
+
+
+.pc {
+  @media screen and(max-width: 767px){
+    display: none;
+  }
+}
+
+.sp {
+  display: none;
+  @media screen and(max-width: 767px){
+    display:inherit;
+  }
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.7;
+}

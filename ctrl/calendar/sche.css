@@ -1,0 +1,73 @@
+/* CSS Document */
+body {
+    /*background-color:#000;*/
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size:12px;
+    color:#000;
+}
+
+#contents {
+    width: 800px;
+    margin: 0 auto;
+}
+
+tr {
+    background-color:#000;
+}
+
+.normal_day {
+    background-color:#FFF;
+    font-size:0.8em;
+    color:#000;
+}
+
+.saturday {
+    background-color:#A4C6FF;
+    font-size:0.8em;
+    color:#000;	
+}
+
+.sunday {
+    background-color:#ECC8B9;
+    font-size:0.8em;
+    color:#000;	
+}
+
+/*  長期用  */
+.saturday2 {
+    background-color:#00A;
+    font-size:1em;
+    color:#FFF;	
+}
+/*  長期用  */
+.sunday2 {
+    background-color:#A00;
+    font-size:1em;
+    color:#FFF;	
+}
+.weekday {
+    font-size:1em;
+    color:#FFF;
+}
+
+a.week{
+    color:#FFF;
+    text-decoration: none;
+}
+
+.bikou {
+    font-size: 0.8em;
+    color:#FFF;
+}
+
+.row1 {
+    background-color: #000;
+}
+.row2 {
+    background-color: #003;
+}
+
+.head {
+    background-color:#CCC;
+    color:#000;
+}

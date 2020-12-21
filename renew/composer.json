@@ -1,0 +1,6 @@
+{
+    "name": "gh-nakayama/public_html",
+    "require": {
+        "smarty/smarty": "^3.1"
+    }
+}

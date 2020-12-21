@@ -1,0 +1,28 @@
+.calendar{
+    width :180px;
+    height :180px;
+    border: 1px #000000 solid;
+    text-align : center;
+    border-collapse:collapse;
+}
+.calendar th{
+    border: 1px #4F5450 solid;
+    background-color : lightgray;
+}
+.calendar td{
+    border: 1px #4F5450 solid;
+}
+.honjitu {
+    background-color : yellow;
+}
+.doyoubi {
+    color : blue;
+    background-color:#ABD2FF
+}
+.nitiyoubi {
+    color : red;
+    background-color:#FFC7CB
+}
+.heijitu {
+    color : black;
+}

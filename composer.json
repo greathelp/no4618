@@ -1,0 +1,8 @@
+{
+    "name": "seiji/public_html",
+    "require": {
+        "pear/log": "^1.13",
+        "pear/pager": "^2.5",
+        "smarty/smarty": "^3.1"
+    }
+}

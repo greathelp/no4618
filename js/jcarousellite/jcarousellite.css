@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+
+/*コンテナ 横バージョン*/
+.sliderWrap {
+	width:460px;
+	height:70px;
+	position:relative;
+}
+ 
+/*ボタン*/
+.sliderWrap .next {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index:99;
+}
+ 
+.sliderWrap .prev {
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index:99;
+}
+
+	/*本体 横バージョン*/
+	.jCarouselLite {
+		width:450px;
+		height:70px;
+		overflow:hidden;
+		padding-left:20px;
+	}
+	 
+	.jCarouselLite li {
+	  width: 205px;
+	  height: 70px;
+	  margin-right:10px;
+	}
+	.jCarouselLite li a:hover img{
+		opacity:0.8;
+		filter: alpha(opacity=80);
+		-ms-filter: "alpha( opacity=80 )";
+	}
+	
+	
+	
+/*コンテナ 縦バージョン*/
+.sliderWrap-ver {
+	width:245px;
+	height:70px;
+	position:relative;
+}
+ 
+/*ボタン*/
+.sliderWrap-ver .next {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index:99;
+}
+ 
+.sliderWrap-ver .prev {
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index:99;
+}
+
+	/*本体 縦バージョン*/
+	.jCarouselLite-ver {
+		width:235px;
+		height:70px;
+		overflow:hidden;
+		padding-left:20px;
+	}
+	 
+	.jCarouselLite-ver li {
+	  width: 205px;
+	  height: 70px;
+	  margin-right:10px;
+	}
+	.jCarouselLite-ver li a:hover img{
+		opacity:0.8;
+		filter: alpha(opacity=80);
+		-ms-filter: "alpha( opacity=80 )";
+	}
+
+

@@ -1,0 +1,104 @@
+header {
+  display: flex!important;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: white;
+  z-index: 10;
+  position: fixed;
+  // padding-left: 20px!important;
+  box-shadow: 0px 5px 3px -3px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0px 5px 3px -3px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 5px 3px -3px rgba(0,0,0,0.1);
+  @media screen and (max-width: 767px){
+  }
+  .logo {
+    width: 400px;
+    margin-left: 20px;
+    @media screen and (max-width: 767px){
+      width: 270px;
+    }
+  }
+  .tel_wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 580px;
+    @media screen and (max-width: 767px){
+      z-index: 20;
+      position: fixed;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          flex-wrap: wrap;
+          box-sizing: border-box;
+    }
+    .tel_cover {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #E4F0E5;
+      width: 530px;
+      .reservation {
+        background-color: #A8CA02;
+        padding: 20px 0;
+        width: 50px;
+        font-size: 13px;
+        color: white;
+        text-align: center;
+      }
+      .tel_info{
+        display: flex;
+        // justify-content: space-between;
+        width: 280px;
+        align-items: center;
+        .telephone_icon {
+          width: 27px;
+          margin: 0 8px;
+        }
+        .number {
+          width: 250px;
+          font-size: 25px;
+          font-weight: bold;
+          letter-spacing: 0.05em;
+          @media screen and (max-width: 767px){
+            letter-spacing: 0.1em;
+          }
+        }
+      }
+      .time {
+        // width: 160px;
+        width: 150px;
+        // margin-right: 25px;
+        @media screen and (max-width: 767px){
+          width: 100%;
+          margin-left: 10px;
+        }
+        .time_txt {
+          width: 200px;
+          font-size: 14px;
+          letter-spacing: 0.05em;
+          line-height: 1.5em!important;
+          @media screen and (max-width: 767px){
+            letter-spacing: normal;
+            width: 250px;
+          }
+        }
+      }
+    }
+    .menu {
+      // width: 60px;
+    }
+  }
+
+.cover {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (max-width: 767px){
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-left: 20px;
+  }
+}
+}// header

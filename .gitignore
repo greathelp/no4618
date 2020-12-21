@@ -1,0 +1,12 @@
+.git
+/.well-known
+/blog
+/css/*.css
+.DS_Store
+/log
+/renew/scss/*.css
+/renew-old
+templates_c
+/vendor
+google32b6a7cd8386e0a0.html
+*.htaccess
