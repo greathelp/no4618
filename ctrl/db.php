@@ -5,7 +5,7 @@
 //ファイル名はDBだけど実際はその他大勢記述
 //2012.11.20 MGM用に修正
 //2013.5.8 想い出用に修正
-
+ini_set("display_errors","on");
 date_default_timezone_set('Asia/Tokyo');
 $servername = $_SERVER['SERVER_NAME'];
 
