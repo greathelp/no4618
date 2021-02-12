@@ -56,6 +56,7 @@ if (document.referrer.indexOf('no4618.com') == -1 && ((navigator.userAgent.index
 </style>
 </head>
 <body>
+    nakayama2
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T55GQ2C"
@@ -428,9 +429,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <p class="pd_r45">千葉県流山市にある流山おおたかの森歯科は、平日は夜20時まで、土日や祝日も、ご利用頂く皆様が通いやすいように診療を行っております。<br />その他、駐車場も（最大5台）完備していますので、ぜひ、お気軽にご来院ください。</p>
                     <dl>
                         <dt>流山おおたかの森歯科・矯正歯科</dt>
-                        <dd>〒270-0138　千葉県流山市おおたかの森東3丁目33-1 LYSEBLA 1階<br />
-                        （区画変更前の住所：千葉県流山市駒木356）<br>
-                        流山おおたかの森駅より徒歩17分</dd>
+                        <dd>〒270-0132　千葉県流山市駒木356 LYSE BLA 1F<br />流山おおたかの森駅より徒歩17分</dd>
                     </dl>
                     <div class="mg_b15"><img src="img/top/time_cal.png" alt="診療カレンダー" /></div>
                     <p>※土日・祝日は〜18:30まで。（午後は14:30から）</p>
@@ -510,7 +509,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div id="footer_in">
                 <dl>
                     <dt><a href="http://no4618.com/"><img src="img/common/f_logo.png" alt="流山おおたかの森歯科 矯正歯科"/></a></dt>
-                    <dd>流山おおたかの森歯科・矯正歯科<br />〒270-0138　千葉県流山市おおたかの森東3丁目33-1 LYSEBLA 1階<br />（区画変更前の住所：千葉県流山市駒木356）<br>流山おおたかの森駅より徒歩17分</dd>
+                    <dd>流山おおたかの森歯科・矯正歯科<br />〒270-0132　千葉県流山市駒木356 LYSE BLA 1F<br />流山おおたかの森駅より徒歩17分</dd>
                 </dl>
                 <ul>
                     <li><a href="./">ホーム</a></li>
